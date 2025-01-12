@@ -1,4 +1,4 @@
 package ex1;
 
-public class Carte {
+public record Carte(String titlul, String autorul, int anul) {
 }
